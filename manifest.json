@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Web Tools",
+  "description": "Web Tools Helps",
+  "version": "1.0.0",
+  "icons": { "128": "Chrome-Extension-128x128.png" },
+  "browser_action": {
+    "default_icon": "Chrome-Extension-150x150.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
